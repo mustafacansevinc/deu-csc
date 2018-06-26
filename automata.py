@@ -51,6 +51,6 @@ if __name__ == "__main__":
     A = Node("A", None, N1, None, NodeState.middle)
     B = Node("B", None, N2, None, NodeState.middle)
     coin1 = Coin()
-    A.process_coin(coin1)
+    A.process_coin(coin1)   # A is the input node for coin1.
     for i in range(5):
         A.process_coin(Coin())
